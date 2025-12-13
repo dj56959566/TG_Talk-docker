@@ -1,11 +1,7 @@
-name: tg_talk Docker Image
+name: Manual Build & Publish Multi-Arch Docker Image
 
 on:
-  push:
-    branches: ["main"]
-  tags:
-    - "v*"
-  workflow_dispatch:
+  workflow_dispatch:   # 仅手动触发
 
 jobs:
   build:
