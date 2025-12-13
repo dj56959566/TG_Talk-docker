@@ -1,4 +1,4 @@
-#Telegram 多机器人托管平台 本doker是基于@SerokBot_bot 的二次开发，挂各容器运行工作。
+#Telegram 多机器人托管平台 本doker是基于@SerokBot_bot 的二次开发，挂各容器运行;自动构建多架构镜像（arm64 + amd64）。
 version: '3.8' 
 
 services:
